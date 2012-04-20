@@ -9,6 +9,7 @@ class StaticPagesController < ApplicationController
   end
 
   def search
+#        @search = Search.new    
   end
 
   def contact
