@@ -41,17 +41,6 @@ describe "Static Pages" do
     end
   end
 
-  describe "Search" do
-    it "should have the h1 'Search'" do
-	    visit search_path
-	    page.should have_selector('h1', :text => "Search")
-    end
-    it "should have the right title 'Search'" do
-      visit search_path
-	    page.should have_selector('title', :text => "#{base_title} | Search")
-    end
-  end
-
   describe "Contact Us" do
     it "should have the h1 'Contact Us'" do
 	    visit contact_path

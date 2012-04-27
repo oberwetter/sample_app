@@ -8,10 +8,6 @@ class StaticPagesController < ApplicationController
   def about
   end
 
-  def search
-#        @search = Search.new    
-  end
-
   def contact
   end
 end
