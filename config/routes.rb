@@ -1,7 +1,8 @@
 SampleApp::Application.routes.draw do
     resources :users  
     resources :sessions, only: [:new, :create, :destroy]
-    resources :search, only: [:create]
+    resources :microposts, only: [:create, :destroy]
+    resources :search, only: [:create, :destroy]
     
   #  get "users/new"
 
